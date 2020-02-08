@@ -46,7 +46,13 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Portanto, vamos fazer o download do Microdados Censo da Educação Superior 2013 e 2014 para integrar estes dados e gerar o dado final
 <img src="_tutorial/5.jpg">
 
-> Ao clicar em "Explorar -> Ir para recurso" o download será realizado automaticamente. Lembre de fazer esse procedimento para os microdados de 2013 e 2014.
+> Ao clicar em "Explorar -> Ir para recurso" o download será realizado automaticamente. Lembre de fazer esse procedimento para os microdados de 2013 e 2014, portanto os passos seguintes deverão ser realizados para os dois:
+
+- Vá ao caminho do download e extraia a pasta microdados_censo_superior_2013
+- Entre na pasta e depois "2013\DADOS\DM_CURSO.rar"
+- Extraia o arquivo "DM_CURSO.rar"
+- Obteremos então o arquivo DM_CURSO.csv que queremos
+<img src="_tutorial/11.jpg">
 
 ## O exemplo
 > Tendo tudo em mãos, hora do nosso exemplo
@@ -56,4 +62,16 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Para tanto, seguem os passos:
 1. Abra o Spoon como demonstrado anteriormente. Esta é sua tela inicial
 <img src="_tutorial/6.jpg">
+2. Acesse "File->Novo->Transformação" como indicado na imagem
+<img src="_tutorial/7.jpg">
+> Uma nova aba se abrirá, este será nosso ambiente de trabalho
+<img src="_tutorial/8.jpg">
+3. Expanda a aba input e escolha a opção "CSV file input"
+<img src="_tutorial/9.jpg">
+> Com isso, estamos escolhendo um componente (ou step) que será responsável por ler o arquivo CSV baixado anteriormente
+4. Arraste a opção para o ambiente de trabalho do Spoon
+<img src="_tutorial/10.jpg">
+5. Configure o step (clicando duas vezes no componente), conectando-o ao CSV de Microdados Censo da Educação Superior 2013.
+<img src="_tutorial/12.jpg">
+
 
