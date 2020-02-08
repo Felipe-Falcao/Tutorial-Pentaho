@@ -1,19 +1,19 @@
 # Tutorial Pentaho
 
-## Introdução
+## 1. Introdução
 Este tutorial tem como objetivo demonstrar a utilização do Pentaho Data Integration para realizar a extração, transformação e carregamento de dados (ETL) de forma combinada para uma futura construção de um DataWarehouse. Acompanha também uma série de ferramentas utilizadas para auxiliar na criação de uma melhor análise possível, dado o exemplo das próximas seções.
 É importante frisar que os passos abaixo foram realizados no Windows 10.
 
-## Instalação
+## 2. Instalação
 Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
-#### JDK
+#### 2.1. JDK
 > O único pré-requisito é ter um runtime Java (máquina virtual java ) instalada ou uma JDK (Kit de Desenvolvimento Java) instalado em sua máquina que pode ser obtida através do [link](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 <img src="_tutorial/3.jpg">
 
 > Após a instalação, podemos seguir as outras instalações...
 
-#### Pentaho Data Integration
+#### 2.2. Pentaho Data Integration
 > Realize o download como indicado na imagem, através do [link indicado](https://sourceforge.net/projects/pentaho/files/Data%20Integration/)
 <img src="_tutorial/1.jpg">
 
@@ -24,7 +24,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Para abrir o programa, clique no arquivo Spoon.bat, como indicado na figura abaixo
 <img src="_tutorial/2.jpg">
 
-## Onde obter nossas informações
+## 3. Onde obter nossas informações
 > Bem, temos quase tudo o que precisamos para trabalhar, vamos aos dados que usaremos de exemplo:
 
 > Em [www.dados.gov.br](http://www.dados.gov.br/dataset/microdados-do-censo-da-educacao-superior) podemos extrair alguns dados úteis para uma introdução à ferramenta
@@ -54,10 +54,12 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 - Obteremos então o arquivo DM_CURSO.csv que queremos
 <img src="_tutorial/11.jpg">
 
-## O exemplo
+## 4. O exemplo
 > Tendo tudo em mãos, hora do nosso exemplo
 
-> O objetivo é: 
+#### 4.1. Objetivo 
+
+#### 4.2. Iniciando o exemplo
 
 > Para tanto, seguem os passos:
 1. Abra o Spoon como demonstrado anteriormente. Esta é sua tela inicial
@@ -69,7 +71,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 <img src="_tutorial/8.jpg">
 
-#### Importando os dados
+#### 4.3. Importando os dados
 
 1. Expanda a aba input e escolha a opção "CSV file input"
 <img src="_tutorial/9.jpg">
