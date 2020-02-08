@@ -21,4 +21,4 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Ao entrar na pasta, vá em data-integration
 
 > Para abrir o programa, clique no arquivo Spoon.bat, como indicado na figura abaixo
-<img src="_tutorial/2.jpg">
+<img align="center" src="_tutorial/2.jpg">
