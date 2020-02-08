@@ -38,7 +38,8 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 - períodos diferentes e 
 - podem ser com padrões diferentes, 
 - ou formatos diferentes. 
-Por exemplo, possuímos dados de 1995 a 2014 que podem abordar todas estas questões apresentadas entre si.
+
+>Por exemplo, possuímos dados de 1995 a 2014 que podem abordar todas estas questões apresentadas entre si.
 
 >Por se tratar de um tutorial inicial, vamos abordar somente os arquivos .csv
 
@@ -46,3 +47,13 @@ Por exemplo, possuímos dados de 1995 a 2014 que podem abordar todas estas quest
 <img src="_tutorial/5.jpg">
 
 > Ao clicar em "Explorar -> Ir para recurso" o download será realizado automaticamente. Lembre de fazer esse procedimento para os microdados de 2013 e 2014.
+
+## O exemplo
+> Tendo tudo em mãos, hora do nosso exemplo
+
+> O objetivo é: 
+
+> Para tanto, seguem os passos:
+1. Abra o Spoon como demonstrado anteriormente. Esta é sua tela inicial
+<img src="_tutorial/6.jpg">
+
