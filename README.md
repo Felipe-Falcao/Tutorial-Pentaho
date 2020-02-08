@@ -64,14 +64,31 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 <img src="_tutorial/6.jpg">
 2. Acesse "File->Novo->Transformação" como indicado na imagem
 <img src="_tutorial/7.jpg">
+
 > Uma nova aba se abrirá, este será nosso ambiente de trabalho
+
 <img src="_tutorial/8.jpg">
 3. Expanda a aba input e escolha a opção "CSV file input"
 <img src="_tutorial/9.jpg">
+
 > Com isso, estamos escolhendo um componente (ou step) que será responsável por ler o arquivo CSV baixado anteriormente
+
 4. Arraste a opção para o ambiente de trabalho do Spoon
 <img src="_tutorial/10.jpg">
 5. Configure o step (clicando duas vezes no componente), conectando-o ao CSV de Microdados Censo da Educação Superior 2013.
+
+> Escolha o nome do componente
+
+> Na opção "Navegar" selecione o local onde está o "DM_CURSO.csv"
+
+> Em "Delimiter", troque de "," para "|"
+
+> Clique em "Obter Campos" para visualizar os campos, caso esteja tudo certo, como na imagem abaixo, clique em "Ok"
+
 <img src="_tutorial/12.jpg">
+
+> Pronto, o primeiro step foi criado e configurado.
+
+6. Repita os passos 3, 4 e 5 para os Microdados Censo da Educação Superior 2014
 
 
