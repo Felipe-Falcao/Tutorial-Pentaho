@@ -32,7 +32,15 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Nele, temos a reunião de  informações sobre as instituições de ensino superior, seus cursos de graduação presencial ou a distância, cursos seqüenciais, vagas oferecidas, inscrições, matrículas, ingressantes e concluintes, além de informações sobre docentes, nas diferentes formas de organização acadêmica e categoria administrativa.
 <img src="_tutorial/4.jpg">
 
-> Cabe destacar nesse ponto a importância de uma ferramenta BI como o Pentaho para ETL: a quantidade de informações geradas são muito grandes, de ambientes diferentes, períodos diferentes e podem ser tanto com padrões diferentes, quanto formatos diferentes. Por se tratar de um tutorial inicial, vamos abordar somente os arquivos .csv
+> Cabe destacar nesse ponto a importância de uma ferramenta BI como o Pentaho para ETL: 
+- a quantidade de informações geradas são muito grandes, 
+- de ambientes diferentes, 
+- períodos diferentes e 
+- podem ser com padrões diferentes, 
+- ou formatos diferentes. 
+Por exemplo, possuímos dados de 1995 a 2014 que podem abordar todas estas questões apresentadas entre si.
+
+>Por se tratar de um tutorial inicial, vamos abordar somente os arquivos .csv
 
 > Portanto, vamos fazer o download do Microdados Censo da Educação Superior 2013 e 2014 para integrar estes dados e gerar o dado final
 <img src="_tutorial/5.jpg">
