@@ -96,4 +96,12 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 4. Repita os passos 1, 2 e 3 para os Microdados Censo da Educação Superior 2014
 
+#### 4.4. Filtrando o que nos interessa
+
+1. Na aba "Flow" pegue o step "Filter rows" e arraste para o ambiente de trabalho
+2. Dê um clique no componente e faça a ligação com o step Censo_2013 como "Main input of Step"
+<img src="_tutorial/13.jpg">
+3. Clique duas vezes no step para configurá-lo
+
+
 
