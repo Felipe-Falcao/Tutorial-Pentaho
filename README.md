@@ -7,12 +7,13 @@ Este tutorial tem como objetivo demonstrar a utilização do Pentaho Data Integr
 ## Instalação
 Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
-- Pentaho Data Integration
+### JDK
 > O único pré-requisito é ter um runtime Java (máquina virtual java ) instalada ou uma JDK (Kit de Desenvolvimento Java) instalado em sua máquina que pode ser obtida através do [link](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 <img src="_tutorial/3.jpg">
 
 > Após a instalação, podemos seguir as outras instalações...
 
+### Pentaho Data Integration
 > Realize o download como indicado na imagem, através do [link indicado](https://sourceforge.net/projects/pentaho/files/Data%20Integration/)
 <img src="_tutorial/1.jpg">
 
@@ -23,7 +24,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Para abrir o programa, clique no arquivo Spoon.bat, como indicado na figura abaixo
 <img src="_tutorial/2.jpg">
 
-## O exemplo
+## Onde obter nossas informações
 > Bem, temos quase tudo o que precisamos para trabalhar, vamos aos dados que usaremos de exemplo:
 
 > Em [www.dados.gov.br](http://www.dados.gov.br/dataset/microdados-do-censo-da-educacao-superior) podemos extrair alguns dados úteis para uma introdução à ferramenta
