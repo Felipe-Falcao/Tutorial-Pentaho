@@ -7,13 +7,13 @@ Este tutorial tem como objetivo demonstrar a utilização do Pentaho Data Integr
 ## Instalação
 Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
-### JDK
+#### JDK
 > O único pré-requisito é ter um runtime Java (máquina virtual java ) instalada ou uma JDK (Kit de Desenvolvimento Java) instalado em sua máquina que pode ser obtida através do [link](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 <img src="_tutorial/3.jpg">
 
 > Após a instalação, podemos seguir as outras instalações...
 
-### Pentaho Data Integration
+#### Pentaho Data Integration
 > Realize o download como indicado na imagem, através do [link indicado](https://sourceforge.net/projects/pentaho/files/Data%20Integration/)
 <img src="_tutorial/1.jpg">
 
