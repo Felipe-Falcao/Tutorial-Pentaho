@@ -155,9 +155,9 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 3. Pronto! Ao executar teremos esta visão se tudo estiver correto
 <p align="center"><img src="_tutorial/executar.jpg"></p>
 4. Nossa pasta "pentaho" ficará assim
-<p align="center"><table><tr><td>
+<table align="center"><tr><td>
     <img border="5" src="_tutorial/pasta.jpg">
-</td></tr></table></p>
+</td></tr></table>
 
 5. E nossos arquivos texto ficarão assim
 <p align="center"><img src="_tutorial/resultado.jpg"></p>
