@@ -154,7 +154,8 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 <img src="_tutorial/rodar.jpg">
 3. Pronto! Ao executar teremos esta visão se tudo estiver correto
 <img src="_tutorial/executar.jpg">
-4. Nossa pasta "pentaho ficará assim
+4. Nossa pasta "pentaho" ficará assim
+
 > <img border="5" src="_tutorial/pasta.jpg">
 
 5. E nossos arquivos texto ficarão assim
