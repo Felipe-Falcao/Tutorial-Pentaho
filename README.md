@@ -30,7 +30,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 > Em [www.dados.gov.br](http://www.dados.gov.br/dataset/microdados-do-censo-da-educacao-superior) podemos extrair alguns dados úteis para uma introdução à ferramenta
 
 > Nele, temos a reunião de  informações sobre as instituições de ensino superior, seus cursos de graduação presencial ou a distância, cursos seqüenciais, vagas oferecidas, inscrições, matrículas, ingressantes e concluintes, além de informações sobre docentes, nas diferentes formas de organização acadêmica e categoria administrativa.
-<img src="_tutorial/4.jpg">
+<p align="center"><img src="_tutorial/4.jpg"></p>
 
 > Cabe destacar nesse ponto a importância de uma ferramenta BI como o Pentaho para ETL: 
 - a quantidade de informações geradas são muito grandes, 
@@ -44,7 +44,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 >Por se tratar de um tutorial inicial, vamos abordar somente os arquivos .csv
 
 > Portanto, vamos fazer o download do Microdados Censo da Educação Superior 2013 e 2014 para integrar estes dados e gerar o dado final
-<img src="_tutorial/5.jpg">
+<p align="center"><img src="_tutorial/5.jpg"></p>
 
 > Ao clicar em "Explorar -> Ir para recurso" o download será realizado automaticamente. Lembre de fazer esse procedimento para os microdados de 2013 e 2014, portanto os passos seguintes deverão ser realizados para os dois:
 
@@ -53,7 +53,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 - Extraia o arquivo "DM_CURSO.rar"
 - Obteremos então o arquivo DM_CURSO.csv que queremos
 - Crie uma pasta chamada "pentaho" e copie o arquivo DM_CURSO.csv para ela
-<img src="_tutorial/11.jpg">
+<p align="center"><img src="_tutorial/11.jpg"></p>
 
 ## 4. O exemplo
 > Tendo tudo em mãos, hora do nosso exemplo
@@ -66,23 +66,23 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 > Para tanto, seguem os passos:
 1. Abra o Spoon como demonstrado anteriormente. Esta é sua tela inicial
-<img src="_tutorial/6.jpg">
+<p align="center"><img src="_tutorial/6.jpg"></p>
 2. Acesse "File->Novo->Transformação" como indicado na imagem
-<img src="_tutorial/7.jpg">
+<p align="center"><img src="_tutorial/7.jpg"></p>
 
 > Uma nova aba se abrirá, este será nosso ambiente de trabalho
 
-<img src="_tutorial/8.jpg">
+<p align="center"><img src="_tutorial/8.jpg"></p>
 
 #### 4.3. Importando os dados
 
 1. Expanda a aba input e escolha a opção "CSV file input"
-<img src="_tutorial/9.jpg">
+<p align="center"><img src="_tutorial/9.jpg"></p>
 
 > Com isso, estamos escolhendo um componente (ou step) que será responsável por ler o arquivo CSV baixado anteriormente
 
 2. Arraste a opção para o ambiente de trabalho do Spoon
-<img src="_tutorial/10.jpg">
+<p align="center"><img src="_tutorial/10.jpg"></p>
 3. Configure o step (clicando duas vezes no componente), conectando-o ao CSV de Microdados Censo da Educação Superior 2013 (Lembre que está na pasta "pentaho" que criamos anteriormente).
 
 > Escolha o nome do componente
@@ -93,7 +93,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 > Clique em "Obter Campos" para visualizar os campos, caso esteja tudo certo, como na imagem abaixo, clique em "Ok"
 
-<img src="_tutorial/12.jpg">
+<p align="center"><img src="_tutorial/12.jpg"></p>
 
 > Pronto, o primeiro step foi criado e configurado.
 
@@ -103,9 +103,9 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 1. Na aba "Transform" pegue o step "Sort rows" e arraste para o ambiente de trabalho, como indicado no step anterior
 2. Dê um clique no componente e faça a ligação com o step Censo_2013 como "Main input of Step"
-<img src="_tutorial/sort.jpg">
+<p align="center"><img src="_tutorial/sort.jpg"></p>
 3. Clique duas vezes no step para configurá-lo
-<img src="_tutorial/sort_config.jpg">
+<p align="center"><img src="_tutorial/sort_config.jpg"></p>
 4. Refaça os três passos anteriores para os dados de 2014
 
 #### 4.5. Selecionando o que nos interessa
@@ -113,54 +113,54 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 1. Na aba "Transform" pegue o step "Select rows" e arraste para o ambiente de trabalho
 2. Dê um clique no componente e faça a ligação com o step Sort_2013 como "Main input of Step"
 3. Clique duas vezes no step para configurá-lo
-<img src="_tutorial/select_config.jpg">
+<p align="center"><img src="_tutorial/select_config.jpg"></p>
 4. Refaça os três passos anteriores para os dados de 2014
 
 > Até o momento temos a seguinte situação:
-<img src="_tutorial/sit_selecionar.jpg">
+<p align="center"><img src="_tutorial/sit_selecionar.jpg"></p>
 
 #### 4.6. Juntando os dados
 1. Na aba "Joins" pegue o step "Merge join" e arraste para o ambiente de trabalho
 2. Dê um clique no componente e faça a ligação com o step Selecionar_2013 e Selecionar_2014 como "Main input of Step"
 3. Clique duas vezes no step para configurá-lo
-<img src="_tutorial/merge_config.jpg">
+<p align="center"><img src="_tutorial/merge_config.jpg"></p>
 4. Observe que você deve selecionar os steps passados e clicar em "Get key fields" para obter os campos responsáveis pela junção
 
 #### 4.7. Filtrando os dados
 1. Na aba "Flow" pegue o step "Filter rows" e arraste para o ambiente de trabalho
 2. Dê um clique no componente e faça a ligação com o step Merge join como "Main input of Step"
 3. Clique duas vezes no step para configurá-lo
-<img src="_tutorial/filter_config.jpg">
+<p align="center"><img src="_tutorial/filter_config.jpg"></p>
 4. Observe que estamos comparando cada coluna de 2013 com cada coluna de 2014 em busca de encontrar a igualdade entre seus valores e selecionar os que não houveram mudança de um ano para o outro
 
 #### 4.8. Exportando em texto
 1. Na aba "Output" pegue o step "Text file output" e arraste para o ambiente de trabalho
 2. Dê um clique no componente e faça a ligação com o step Filtrar como "Main input of Step"
 3. Clique duas vezes no step para configurá-lo
-<img src="_tutorial/text_config.jpg">
+<p align="center"><img src="_tutorial/text_config.jpg"></p>
 4. Vamos também criar outro Text file output para os dados restantes, ou seja, os cursos que foram modificados entre 2013 e 2014. Para isso repita o passo 1 a 3.
-<img src="_tutorial/text_config2.jpg">
+<p align="center"><img src="_tutorial/text_config2.jpg"></p>
 5. Agora voltamos ao step "Filtrar" e damos dois cliques para configurá-lo novamente
-<img src="_tutorial/filter_config2.jpg">
+<p align="center"><img src="_tutorial/filter_config2.jpg"></p>
 
 #### 4.9. Esquema final
 > Por fim, nosso esquema ficará assim
-<img src="_tutorial/esquema_final.jpg">
+<p align="center"><img src="_tutorial/esquema_final.jpg"></p>
 
 # 5. Salvando e testando o projeto
 1. Em "File" vá para a opção "Save" e salve o arquivo na pasta "pentaho" que criamos anteriormente como "curso_situacao"
-<img src="_tutorial/save.jpg">
+<p align="center"><img src="_tutorial/save.jpg"></p>
 2. Ao salvar o projeto, observe o esquema abaixo para algumas explicações
-<img src="_tutorial/rodar.jpg">
+<p align="center"><img src="_tutorial/rodar.jpg"></p>
 3. Pronto! Ao executar teremos esta visão se tudo estiver correto
-<img src="_tutorial/executar.jpg">
+<p align="center"><img src="_tutorial/executar.jpg"></p>
 4. Nossa pasta "pentaho" ficará assim
-<table><tr><td>
+<p align="center"><table><tr><td>
     <img border="5" src="_tutorial/pasta.jpg">
-</td></tr></table>
+</td></tr></table></p>
 
 5. E nossos arquivos texto ficarão assim
-<img src="_tutorial/resultado.jpg">
+<p align="center"><img src="_tutorial/resultado.jpg"></p>
 
 > Observe que diferenca.txt ficou em branco, indicando, portanto que nenhum curso mudou de situação entre o período de 2013 e 2014.
 
