@@ -9,7 +9,7 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 #### 2.1. JDK
 > O único pré-requisito é ter um runtime Java (máquina virtual java ) instalada ou uma JDK (Kit de Desenvolvimento Java) instalado em sua máquina que pode ser obtida através do [link](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-<img src="_tutorial/3.jpg">
+<p align="center"><img src="_tutorial/3.jpg"><p>
 
 > Após a instalação, podemos seguir as outras instalações...
 
