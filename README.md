@@ -9,20 +9,20 @@ Primeiro de tudo, vamos à instalação de cada componente que utilizaremos.
 
 #### 2.1. JDK
 > O único pré-requisito é ter um runtime Java (máquina virtual java ) instalada ou uma JDK (Kit de Desenvolvimento Java) instalado em sua máquina que pode ser obtida através do [link](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-<p align="center"><img src="_tutorial/3.jpg"><p>
+<p align="center"><img src="_tutorial/3.jpg"></p>
 
 > Após a instalação, podemos seguir as outras instalações...
 
 #### 2.2. Pentaho Data Integration
 > Realize o download como indicado na imagem, através do [link indicado](https://sourceforge.net/projects/pentaho/files/Data%20Integration/)
-<img src="_tutorial/1.jpg">
+<p align="center"><img src="_tutorial/1.jpg"></p>
 
 > Ao final do download, a pasta "pdi-ce-8.3.0.0-371" aparecerá no caminho escolhido para armazenar o download. Por padrão, fica em "Downloads".
 
 > Ao entrar na pasta, vá em data-integration
 
 > Para abrir o programa, clique no arquivo Spoon.bat, como indicado na figura abaixo
-<img src="_tutorial/2.jpg">
+<p align="center"><img src="_tutorial/2.jpg"></p>
 
 ## 3. Onde obter nossas informações
 > Bem, temos quase tudo o que precisamos para trabalhar, vamos aos dados que usaremos de exemplo:
